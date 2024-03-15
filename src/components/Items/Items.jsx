@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Item from "../Item/Item";
+import PropTypes from 'prop-types';
 
-const Items = () => {
+const Items = ({handleCooked}) => {
     const [items, setItems] = useState([])
 
     useEffect(() => {
@@ -15,10 +16,18 @@ const Items = () => {
         <div className="col-span-4 grid md:grid-cols-2 gap-8">
             
             {
-                items.map((item) => <Item key={item.id} item={item}></Item>)
+                items.map((item) => <Item 
+                key={item.id} 
+                handleCooked={handleCooked}
+                item={item}></Item>)
             }
         </div>
     );
 };
+
+
+Items.propTypes = {
+    handleCooked: PropTypes.func
+}
 
 export default Items;

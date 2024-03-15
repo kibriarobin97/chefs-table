@@ -1,7 +1,8 @@
 import { MdOutlineWatchLater } from "react-icons/md";
 import { FaFireAlt } from "react-icons/fa";
+import PropTypes from 'prop-types';
 
-const Item = ({item}) => {
+const Item = ({item, handleCooked}) => {
     const { name, image, description, preparing_time, calories, ingredients } = item;
     return (
         <div>
@@ -27,12 +28,17 @@ const Item = ({item}) => {
                         </div>
                     </div>
                     <div className="card-actions justify-start">
-                        <button className="btn rounded-full text-black bg-[#0BE58A]">Want to Cook</button>
+                        <button onClick={()=>handleCooked(item)} className="btn rounded-full text-black bg-[#0BE58A]">Want to Cook</button>
                     </div>
                 </div>
             </div>
         </div>
     );
 };
+
+Item.propTypes = {
+    item: PropTypes.object.isRequired,
+    handleCooked: PropTypes.func
+}
 
 export default Item;
