@@ -1,0 +1,98 @@
+[
+    {
+        "image": "https://i.ibb.co/wzdpLdn/Lemon-Garlic-Roasted-Chicken.webp",
+        "id": "1",
+        "name": "Lemon Garlic Roasted Chicken",
+        "description": "A zesty and flavorful chicken dish perfect for any occasion.",
+        "ingredients": [
+            "4 chicken breasts",
+            "2 lemons",
+            "4 cloves garlic",
+            "2 tablespoons olive oil",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "45 minutes",
+        "calories": "320 calories per serving"
+    },
+    {
+        "image": "https://i.ibb.co/nsW6sSS/Vegetable-Stir-Fry.webp",
+        "id": "2",
+        "name": "Vegetable Stir-Fry",
+        "description": "A colorful and nutritious stir-fry bursting with fresh veggies.",
+        "ingredients": [
+            "2 cups broccoli florets",
+            "1 red bell pepper",
+            "1 yellow bell pepper",
+            "1 carrot",
+            "1 cup snap peas",
+            "3 tablespoons soy sauce"
+        ],
+        "preparing_time": "30 minutes",
+        "calories": "180 calories per serving"
+    },
+    {
+        "image": "https://i.ibb.co/MfF4qfJ/Quinoa-Salad-with-Avocado.jpg",
+        "id": "3",
+        "name": "Quinoa Salad with Avocado",
+        "description": "A refreshing salad packed with protein and healthy fats.",
+        "ingredients": [
+            "1 cup quinoa",
+            "1 avocado",
+            "1 cucumber",
+            "1/4 cup cherry tomatoes",
+            "2 tablespoons lemon juice",
+            "2 tablespoons olive oil"
+        ],
+        "preparing_time": "20 minutes",
+        "calories": "250 calories per serving"
+    },
+    {
+        "image": "https://i.ibb.co/ZG7DFP1/mushroom-risotto.jpg",
+        "id": "4",
+        "name": "Mushroom Risotto",
+        "description": "A creamy and comforting risotto infused with earthy mushroom flavor.",
+        "ingredients": [
+            "1 cup Arborio rice",
+            "1/2 cup white wine",
+            "1 cup sliced mushrooms",
+            "1 onion",
+            "2 cloves garlic",
+            "4 cups vegetable broth"
+        ],
+        "preparing_time": "40 minutes",
+        "calories": "380 calories per serving"
+    },
+    {
+        "image": "https://i.ibb.co/vBLwKmL/chocolate-chip-cookies-recipe.jpg",
+        "id": "5",
+        "name": "Chocolate Chip Cookies",
+        "description": "Classic homemade cookies filled with gooey chocolate chips.",
+        "ingredients": [
+            "2 cups all-purpose flour",
+            "1 cup butter",
+            "1 cup brown sugar",
+            "1/2 cup white sugar",
+            "2 eggs",
+            "1 teaspoon vanilla extract",
+            "1 cup chocolate chips"
+        ],
+        "preparing_time": "25 minutes",
+        "calories": "150 calories per serving"
+    },
+    {
+        "image": "https://i.ibb.co/64gPvxG/Grilled-Salmon-with-Asparagus.jpg",
+        "id": "6",
+        "name": "Grilled Salmon with Asparagus",
+        "description": "A light and nutritious seafood dish paired with tender asparagus spears.",
+        "ingredients": [
+            "4 salmon fillets",
+            "1 bunch asparagus",
+            "2 tablespoons lemon juice",
+            "2 cloves garlic",
+            "2 tablespoons olive oil",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "35 minutes",
+        "calories": "290 calories per serving"
+    }
+]
