@@ -1,4 +1,5 @@
 import './App.css'
+import Cart from './components/Cart/Cart'
 import Header from './components/Header/Header'
 import Items from './components/Items/Items'
 
@@ -8,8 +9,9 @@ function App() {
     <>
       <div className='max-w-6xl mx-auto my-4'>
         <Header></Header>
-        <div className='w-2/3 mx-auto my-5 md:flex gap-5'>
+        <div className='grid grid-cols-6 my-8 gap-10'>
           <Items></Items>
+          <Cart></Cart>
         </div>
       </div>
     </>

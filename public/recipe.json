@@ -9,13 +9,14 @@
             "2 lemons",
             "4 cloves garlic",
             "2 tablespoons olive oil",
-            "Salt and pepper to taste"
+            "Salt and pepper to taste",
+            "1 tablespoon fresh parsley"
         ],
-        "preparing_time": "45 minutes",
-        "calories": "320 calories per serving"
+        "preparing_time": 45,
+        "calories": 320
     },
     {
-        "image": "https://i.ibb.co/nsW6sSS/Vegetable-Stir-Fry.webp",
+        "image": "https://i.ibb.co/PWSXNxm/sirasit-gullasu-Wq-QZl5-g0jk-unsplash.jpg",
         "id": "2",
         "name": "Vegetable Stir-Fry",
         "description": "A colorful and nutritious stir-fry bursting with fresh veggies.",
@@ -27,8 +28,8 @@
             "1 cup snap peas",
             "3 tablespoons soy sauce"
         ],
-        "preparing_time": "30 minutes",
-        "calories": "180 calories per serving"
+        "preparing_time": 30,
+        "calories": 180
     },
     {
         "image": "https://i.ibb.co/MfF4qfJ/Quinoa-Salad-with-Avocado.jpg",
@@ -43,8 +44,8 @@
             "2 tablespoons lemon juice",
             "2 tablespoons olive oil"
         ],
-        "preparing_time": "20 minutes",
-        "calories": "250 calories per serving"
+        "preparing_time": 20,
+        "calories": 250
     },
     {
         "image": "https://i.ibb.co/ZG7DFP1/mushroom-risotto.jpg",
@@ -59,8 +60,8 @@
             "2 cloves garlic",
             "4 cups vegetable broth"
         ],
-        "preparing_time": "40 minutes",
-        "calories": "380 calories per serving"
+        "preparing_time": 40,
+        "calories": 380
     },
     {
         "image": "https://i.ibb.co/vBLwKmL/chocolate-chip-cookies-recipe.jpg",
@@ -76,8 +77,8 @@
             "1 teaspoon vanilla extract",
             "1 cup chocolate chips"
         ],
-        "preparing_time": "25 minutes",
-        "calories": "150 calories per serving"
+        "preparing_time": 25,
+        "calories": 150
     },
     {
         "image": "https://i.ibb.co/64gPvxG/Grilled-Salmon-with-Asparagus.jpg",
@@ -92,7 +93,7 @@
             "2 tablespoons olive oil",
             "Salt and pepper to taste"
         ],
-        "preparing_time": "35 minutes",
-        "calories": "290 calories per serving"
+        "preparing_time": 35,
+        "calories": 290
     }
 ]
