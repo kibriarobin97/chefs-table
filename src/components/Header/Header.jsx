@@ -42,7 +42,7 @@ const Header = () => {
                     <div className="hero-content text-center text-neutral-content">
                         <div className="">
                             <h1 className="text-3xl md:text-5xl font-bold">Discover an exceptional cooking<br />class tailored for you!</h1>
-                            <p className="my-5 w-2/3 mx-auto">Welcome to our website, where you can explore a diverse collection of mouthwatering recipes along with detailed calorie information.</p>
+                            <p className="my-5 w-2/3 mx-auto">Welcome to Recipe Calories, where you can explore a diverse collection of mouthwatering recipes along with detailed calorie information.</p>
                             <div className='flex items-center gap-2 justify-center'>
                                 <button className="btn rounded-full bg-[#0BE58A] border-none">Explore Now</button>
                                 <button className="btn rounded-full border-white btn-outline text-white">Our Feedback</button>
@@ -50,6 +50,10 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="w-2/3 mx-auto mt-10 space-y-3">
+                <h3 className="text-center text-3xl font-semibold">Our Recipes</h3>
+                <p className="text-center text-[#150B2B99]">Indulge in a culinary adventure with our diverse selection of recipes, meticulously curated to delight your taste buds and inspire your inner chef.</p>
             </div>
         </div>
     );
