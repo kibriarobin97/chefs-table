@@ -1,15 +1,13 @@
 import './App.css'
+import Header from './components/Header/Header'
 
 function App() {
 
   return (
     <>
-      
-      <h1 className='font-bold'>Chefs Table</h1>
-      <div>
-      <button className="btn btn-primary">Primary</button>
+      <div className='max-w-6xl mx-auto my-4'>
+        <Header></Header>
       </div>
-      
     </>
   )
 }
