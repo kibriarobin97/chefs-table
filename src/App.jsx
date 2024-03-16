@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
 
   const [carts, setCarts] = useState([])
+  const [cooking, setCooking] = useState([])
 
   const handleCooked = (item) => {
     const isExist = carts.find(cart => cart.id === item.id)
@@ -16,15 +17,17 @@ function App() {
       const newCarts = [...carts, item]
       setCarts(newCarts)
     }
-    else{
+    else {
       toast.warn("This item is already exist !");
     }
   }
 
 
-  const handlePreparing = (id) => {
-    const cookedCarts = carts.filter(cart=> cart.id!==id)
+  const handlePreparing = (id, cart) => {
+    const cookedCarts = carts.filter(cart => cart.id !== id)
     setCarts(cookedCarts)
+    const newCooking = [...cooking, cart]
+    setCooking(newCooking)
   }
 
 
@@ -38,6 +41,7 @@ function App() {
           ></Items>
           <Cart
             carts={carts}
+            cooking={cooking}
             handlePreparing={handlePreparing}
           ></Cart>
         </div>
