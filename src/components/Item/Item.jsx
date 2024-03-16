@@ -11,10 +11,11 @@ const Item = ({item, handleCooked}) => {
                 <div className="card-body">
                     <h2 className="card-title">{name}</h2>
                     <p>{description}</p>
-                    <ul>
-                        <h3 className="font-bold">Ingredients: {ingredients.length}</h3>
+                    <h3 className="font-bold">Ingredients: {ingredients.length}</h3>
+                    <ul className="list-disc ml-4">
+                        
                         {
-                            ingredients.map((ingred, idx) => <li className="text-[#878787]" key={idx}>* {ingred}</li>)
+                            ingredients.map((ingred, idx) => <li className="text-[#878787]" key={idx}>{ingred}</li>)
                         }
                     </ul>
                     <div className="flex items-center justify-between my-3">
