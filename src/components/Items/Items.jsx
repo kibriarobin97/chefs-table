@@ -13,7 +13,7 @@ const Items = ({handleCooked}) => {
     }, [])
     
     return (
-        <div className="col-span-4 grid md:grid-cols-2 gap-8">
+        <div className="col-span-5 grid md:grid-cols-2 gap-5">
             
             {
                 items.map((item) => <Item 

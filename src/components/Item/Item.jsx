@@ -6,7 +6,7 @@ const Item = ({item, handleCooked}) => {
     const { name, image, description, preparing_time, calories, ingredients } = item;
     return (
         <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card bg-base-100 shadow-xl">
                 <figure><img className="w-5/6 h-48 object-cover rounded-lg" src={image} alt={`picture of ${name}`} /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{name}</h2>
