@@ -17,7 +17,7 @@ const Item = ({item, handleCooked}) => {
                             ingredients.map((ingred, idx) => <li className="text-[#878787]" key={idx}>* {ingred}</li>)
                         }
                     </ul>
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-center justify-between my-3">
                         <div className="w-32 flex items-center gap-0">
                             <p><MdOutlineWatchLater /></p>
                             <p>{preparing_time} minutes</p>

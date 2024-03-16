@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const Cart = ({ carts, handlePreparing, cooking }) => {
     console.log(cooking)
     return (
-        <div className="col-span-4">
+        <div className="col-span-4 m-5 md:m-0">
             <h3 className="text-2xl font-bold text-center border-b-2">Want to cook: {carts.length}</h3>
             <div>
                 <div className="overflow-x-auto">
